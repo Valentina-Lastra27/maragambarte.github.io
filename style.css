@@ -24,6 +24,16 @@ p {
   line-height: 1.5;
 }
 
+p1 {
+  font-size: 18px; /* Cambia el tamaño de fuente a 18px */
+  line-height: 1.5; /* Ajusta el espaciado entre líneas */
+  color: #BFC9CA; /* Cambia el color del texto a rojo (#FF0000) */
+  font-weight: bold; /* Hace que el texto sea en negrita */
+}
+
+
+
+
 form {
   background-color: #fff;
   max-width: 400px;
@@ -67,3 +77,28 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #005cbf;
 }
+     
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+
+.item {
+  text-align: center; 
+}
+
+
+.item img {
+  max-width: 100%;
+  height: auto;
+  display: block; 
+  width: 100%; 
+}
+
+
+.item p {
+  font-size: 16px; 
+  margin-top: 5px;
+} 
